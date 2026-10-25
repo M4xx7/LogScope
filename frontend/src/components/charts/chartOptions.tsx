@@ -11,7 +11,8 @@ import {
 } from "chart.js";
 
 import type { ChartOptions } from "chart.js";
-import type { Request } from "../../../../types";
+import type { Request } from "../../../../backend/src/types";
+
 
 ChartJS.register(
     CategoryScale,
