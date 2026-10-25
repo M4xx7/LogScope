@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import type { EndpointData } from "../../../types";
+import type { EndpointData } from "../../../backend/src/types";
 import { API_URL } from "../constants/constants";
 import { InfoTooltip } from "./InfoTooltip";
 import { Spinner } from "./Spinner";

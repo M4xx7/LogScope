@@ -14,8 +14,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "dev": "cp ../types.ts ./src/types.ts && npx ts-node src/index.ts",
-    "build": "cp ../types.ts ./src/types.ts && tsc",
+    "dev": "npx ts-node src/index.ts",
+    "build": "tsc",
     "test": "vitest"
   },
   "keywords": [

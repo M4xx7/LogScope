@@ -4,7 +4,7 @@ import { LatencyChart } from "../components/charts/LatencyChart";
 import { StatusCodeChart } from "../components/charts/StatusCodeChart";
 import { useFilteredData, type TimeRange } from "../utils/useTimeFilter";
 import { calculateMetrics } from "../utils/metricsHelper";
-import type { Request } from "../../../types";
+import type { Request } from "../../../backend/src/types";
 
 export function Dashboard({ requests }: { requests: Request[] }) {
     const [timeRange, setTimeRange] = useState<TimeRange>("1D");

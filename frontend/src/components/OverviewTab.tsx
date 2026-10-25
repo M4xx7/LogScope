@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import type { EndpointData } from "../../../types";
+import type { EndpointData } from "../../../backend/src/types";
 import { getMethodColor } from "../utils/methodColors";
 
 type Props = {

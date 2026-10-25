@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import type { EndpointData } from "../../../types";
+import type { EndpointData } from "../../../backend/src/types";
 import { Dashboard } from "../components/Dashboard";
 import { getMethodColor } from "../utils/methodColors";
 

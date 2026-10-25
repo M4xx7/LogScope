@@ -1,4 +1,4 @@
-import type { EndpointMetrics, Request } from "../../../types";
+import type {EndpointMetrics, Request } from "../../../backend/src/types";
 
 
 export function calculateMetrics(requests: Request[]): EndpointMetrics {

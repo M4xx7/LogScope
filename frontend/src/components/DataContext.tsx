@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
-import type { EndpointData } from "../../../types";
+import type { EndpointData } from "../../../backend/src/types";
 
 type DataContextType = {
     results: EndpointData[] | null;
