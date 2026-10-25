@@ -21,7 +21,7 @@ export function Dashboard({ requests }: { requests: Request[] }) {
                     {filteredData.length === 0 ? (
                         <div className="dashboard-empty">
                             <p className="dashboard-empty-text">
-                                No requests found in the selected time period.
+                                No requests found in the selected time period
                             </p>
                         </div>
                     ) : (

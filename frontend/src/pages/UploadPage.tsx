@@ -13,9 +13,18 @@ export function UploadPage() {
     };
 
     return (
-        <div className="page-wrapper max-w-7xl mx-auto w-full p-4 flex flex-col items-center justify-center min-h-screen">
-            <h1 className="title mb-8 text-white">Endpoint Analyzer</h1>
-            <Uploader onUploadComplete={handleUploadComplete} />
+        <div className="page-wrapper max-w-7xl mx-auto w-full px-4 pt-4 pb-6 flex flex-col min-h-screen">
+            
+            <header className="w-full text-center">
+                <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white m-0">
+                    LogScope
+                </h1>
+            </header>
+
+            <main className="flex-1 flex flex-col items-center justify-center w-full">
+                <Uploader onUploadComplete={handleUploadComplete} />
+            </main>
+
             <Footer />
         </div>
     );
