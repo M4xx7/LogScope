@@ -13,12 +13,11 @@
     "README.md",
     "LICENSE"
   ],
- "scripts": {
-  "dev": "cp ../types.ts ./src/types.ts && npx ts-node src/index.ts",
-  "build": "cp ../types.ts ./src/types.ts && tsc",
-  "prepare": "npm run build",
-  "test": "vitest"
-},
+  "scripts": {
+    "dev": "cp ../types.ts ./src/types.ts && npx ts-node src/index.ts",
+    "build": "cp ../types.ts ./src/types.ts && tsc",
+    "test": "vitest"
+  },
   "keywords": [
     "cli",
     "logs",
@@ -37,15 +36,20 @@
   },
   "homepage": "https://github.com/M4xx7/endpoint-analyzer#readme",
   "devDependencies": {
+    "@types/amqplib": "^0.10.8",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
+    "@types/ioredis": "^4.28.10",
     "@types/node": "^26.1.0",
+    "@types/uuid": "^10.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
     "vitest": "^4.1.10"
   },
   "dependencies": {
+    "amqplib": "^2.2.0",
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0"
   }
 }
